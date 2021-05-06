@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inditex</groupId>
-	<artifactId>groovy-test</artifactId>
+	<artifactId>java-tech-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>groovy-test</name>
-	<description>Groovy test for Inditex position</description>
+	<name>java-tech-test</name>
+	<description>Java technical test test for Inditex position</description>
+
 	<properties>
 		<java.version>8</java.version>
 	</properties>
@@ -57,25 +58,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.gmavenplus</groupId>
-				<artifactId>gmavenplus-plugin</artifactId>
-				<version>1.11.0</version>
-				<executions>
-					<execution>
-						<goals>
-							<goal>addSources</goal>
-							<goal>addTestSources</goal>
-							<goal>generateStubs</goal>
-							<goal>compile</goal>
-							<goal>generateTestStubs</goal>
-							<goal>compileTests</goal>
-							<goal>removeStubs</goal>
-							<goal>removeTestStubs</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
