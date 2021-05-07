@@ -39,23 +39,34 @@ Este repositorio contiene la implementación solicitada como prueba técnica en 
             * Test 1: petición a las 10:00 del día 14 del producto 35455   para la brand 1 (ZARA)
                     
                     curl "http://localhost:8080/product-price-inquiry/v1/product-price/retrieveProductPrice?applyingDateTime=2020-06-14%2010%3A00&productId=35455&brandId=1" -H  "accept: application/json" -v
+                    
+                    Resultado esperado: {"product_id":35455,"brand_id":1,"price_list":1,"start_date":"2020-06-14T00:00:00","end_date":"2020-12-31T23:59:59","price":35.5}
             
             * Test 2: petición a las 16:00 del día 14 del producto 35455   para la brand 1 (ZARA)
                     
                     curl "http://localhost:8080/product-price-inquiry/v1/product-price/retrieveProductPrice?applyingDateTime=2020-06-14%2016%3A00&productId=35455&brandId=1" -H  "accept: application/json" -v
+                    
+                    Resultado esperado: {"product_id":35455,"brand_id":1,"price_list":1,"start_date":"2020-06-14T15:00:00","end_date":"2020-06-14T18:30:00","price":25.45}
             
             * Test 3: petición a las 21:00 del día 14 del producto 35455   para la brand 1 (ZARA)        
             
                     curl "http://localhost:8080/product-price-inquiry/v1/product-price/retrieveProductPrice?applyingDateTime=2020-06-14%2021%3A00&productId=35455&brandId=1" -H  "accept: application/json" -v
+                    
+                    Resultado esperado: {"product_id":35455,"brand_id":1,"price_list":1,"start_date":"2020-06-14T00:00:00","end_date":"2020-12-31T23:59:59","price":35.5}
             
             * Test 4: petición a las 10:00 del día 15 del producto 35455   para la brand 1 (ZARA)   
                  
                     curl "http://localhost:8080/product-price-inquiry/v1/product-price/retrieveProductPrice?applyingDateTime=2020-06-15%2010%3A00&productId=35455&brandId=1" -H  "accept: application/json" -v
+                    
+                    Resultado esperado: {"product_id":35455,"brand_id":1,"price_list":1,"start_date":"2020-06-15T00:00:00","end_date":"2020-06-15T11:00:00","price":30.5}
             
             * Test 5: petición a las 21:00 del día 16 del producto 35455   para la brand 1 (ZARA) 
                    
                     curl "http://localhost:8080/product-price-inquiry/v1/product-price/retrieveProductPrice?applyingDateTime=2020-06-16%2021%3A00&productId=35455&brandId=1" -H  "accept: application/json" -v
+                    
+                    Resultado esperado: {"product_id":35455,"brand_id":1,"price_list":1,"start_date":"2020-06-15T16:00:00","end_date":"2020-12-31T23:59:59","price":38.95}
             
+
             
             
             
