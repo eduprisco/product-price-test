@@ -66,7 +66,12 @@ Este repositorio contiene la implementación solicitada como prueba técnica en 
                     
                     Resultado esperado: {"product_id":35455,"brand_id":1,"price_list":1,"start_date":"2020-06-15T16:00:00","end_date":"2020-12-31T23:59:59","price":38.95}
             
+* #####Observaciones a la implementación:
 
+    - Es necesaria la versión 8 de Java para compilar este servicio.
+    - El gestor de dependiencias usado es maven
+    - Una vez arrancado el servicio, el swagger del mismo se encuentra disponible en la siguiente [dirección](localhost:8080/product-price-inquiry/v1/swagger-ui.html).
+            
             
             
             
