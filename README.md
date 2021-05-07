@@ -70,7 +70,7 @@ Este repositorio contiene la implementación solicitada como prueba técnica en 
 
     - Es necesaria la versión 8 de Java para compilar este servicio.
     - El gestor de dependiencias usado es maven
-    - Una vez arrancado el servicio, el swagger del mismo se encuentra disponible en la siguiente [dirección](localhost:8080/product-price-inquiry/v1/swagger-ui.html).
+    - Una vez arrancado el servicio, el swagger del mismo se encuentra disponible en la siguiente [dirección](http://localhost:8080/product-price-inquiry/v1/swagger-ui.html "Swagger").
             
             
             
